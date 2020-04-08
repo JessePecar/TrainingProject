@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:TFTHelper2.Mobile.UI.Converters" xmlns:controls="clr-namespace:TFTHelper2.Mobile.UI.Controls"
+             x:Class="TFTHelper2.Mobile.UI.Views.LandingPage.LandingPageView">
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <converters:CostToColor x:Key="CostToColor" />
+        </ResourceDictionary>
+  </ContentView.Resources>
+    <ContentView.Content>
+        <Grid BackgroundColor="{StaticResource PrimaryDark}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.5*"></RowDefinition>
+                <RowDefinition Height="8.5*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Frame HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="{StaticResource SecondaryDark}"
+                   CornerRadius="0" Padding="3" Grid.Row="0">
+                <Grid HorizontalOptions="FillAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Picker Grid.Column="0" ItemsSource="{Binding SortSelection}" SelectedItem="{Binding SelectedSort}" HorizontalOptions="FillAndExpand"
+                            TextColor="{StaticResource SecondaryLight}" BackgroundColor="{StaticResource PrimaryDark}"></Picker>
+                    <controls:CustomPicker Grid.Column="1" ItemsSource="{Binding FilterSelection}" SelectedItem="{Binding SelectedSort}" HorizontalOptions="FillAndExpand"
+                            TextColor="{StaticResource SecondaryLight}" BackgroundColor="{StaticResource PrimaryDark}">
+
+                    </controls:CustomPicker>
+                    
+                </Grid>
+            </Frame>
+            <ScrollView VerticalOptions="FillAndExpand" HeightRequest="450" BackgroundColor="{StaticResource PrimaryDark}" Grid.Row="1">
+                
+                <FlexLayout x:Name="FilteredChampions"
+                            BindableLayout.ItemsSource="{Binding FilteredChampions}"
+                            Wrap="Wrap"
+                            Direction="Row"
+                            JustifyContent="Center"
+                            AlignItems="Start"
+                            AlignContent="Start">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame WidthRequest="70" HasShadow="True" HeightRequest="70" Padding="2" Margin="2" CornerRadius="5"
+                                   BorderColor="{Binding Cost, Converter = {StaticResource CostToColor}}" BackgroundColor="{Binding Cost, Converter = {StaticResource CostToColor}}">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding OnSelectChampionClicked}" NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
+                                <Image Source="{Binding ChampionIcon}" Aspect="Fill"></Image>
+                            </Frame>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </ScrollView>
+            <Frame BorderColor="Transparent" IsVisible="{Binding IsSelectingFilter}" CornerRadius="3" Margin="10"
+                   VerticalOptions="Center" Grid.RowSpan="2" BackgroundColor="Transparent">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="6*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Frame CornerRadius="8" Grid.Row="1" VerticalOptions="Fill" HorizontalOptions="FillAndExpand"
+                           Padding="5,2,5,2" BackgroundColor="{StaticResource SecondaryLight}">
+                    <ContentView >
+                        <StackLayout>
+                            <StackLayout VerticalOptions="Start" BackgroundColor="{StaticResource SecondaryLight}">
+                                <Label Text="Select Trait" TextColor="{StaticResource SecondaryBlack}" FontSize="24" HorizontalOptions="CenterAndExpand"
+                                       HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                            <ScrollView VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource SecondaryBlack}" Padding="0,5,0,5">
+                                <ListView ItemsSource="{Binding FilterSelection}" HasUnevenRows="False" SelectionMode="Single" SelectedItem="{Binding SelectedFilter}"
+                                          BackgroundColor="{StaticResource SecondaryLight}" SeparatorColor="{StaticResource SecondaryBlack}">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+                                                <StackLayout x:Name="temp" HeightRequest="50" Orientation="Horizontal" BackgroundColor="{StaticResource PrimaryDark}" Padding="5,0,5,0">
+                                                    <Image InputTransparent="True" Source="{Binding ClassIcon}" VerticalOptions="Center" Aspect="Fill" HeightRequest="30" WidthRequest="30"/>
+                                                    <Label InputTransparent="True" Text="{Binding Name}" HorizontalOptions="FillAndExpand" TextColor="{StaticResource SecondaryLight}"
+                                                            FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+                                                </StackLayout>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </ScrollView>
+                            <StackLayout VerticalOptions="End" HeightRequest="50">
+                                
+                                <Button BackgroundColor="Transparent" Text="Cancel" TextColor="{StaticResource SecondaryBlack}" HeightRequest="50"
+                                        Command="{Binding OnSelectFilterClicked}" HorizontalOptions="EndAndExpand" Padding="5,2,5,2"></Button>
+                            </StackLayout>
+                        </StackLayout>
+                    </ContentView>
+                        </Frame>
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentView.Content>
+    
+</ContentView>

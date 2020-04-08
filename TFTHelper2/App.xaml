@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="TFTHelper2.Mobile.UI.App">
+    <Application.Resources>
+        <!-- Colors that will be used throughout the application-->
+        <!-- Seven Cost Unit Color-->
+        <Color x:Key="SevenCost">#FFFFFF</Color>
+        <!-- Five Cost Unit Color-->
+        <Color x:Key="FiveCost">#fcba03</Color>
+        <!-- Four Cost Unit Color-->
+        <Color x:Key="FourCost">#770085</Color>
+        <!-- Three Cost Unit Color-->
+        <Color x:Key="ThreeCost">#0012db</Color>
+        <!-- Two Cost Unit Color-->
+        <Color x:Key="TwoCost">#00a103</Color>
+        <!-- One Cost Unit Color-->
+        <Color x:Key="OneCost">#AAAAAA</Color>
+        <!-- Primary Color-->
+        <Color x:Key="PrimaryDark">#444444</Color>
+        <!-- Primary Color Transparent-->
+        <Color x:Key="PrimaryDarkTransparent">#44444444</Color>
+        <!-- Secondary Color-->
+        <Color x:Key="SecondaryLight">#dddddd</Color>
+        <!-- Secondary Dark Color-->
+        <Color x:Key="SecondaryDark">#2f4f4f</Color>
+        <!-- SecondaryBlack-->
+        <Color x:Key="SecondaryBlack">#111111</Color>
+    </Application.Resources>
+</Application>

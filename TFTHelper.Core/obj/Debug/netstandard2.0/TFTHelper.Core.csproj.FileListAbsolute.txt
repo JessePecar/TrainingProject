@@ -1,0 +1,12 @@
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/bin/Debug/netstandard2.0/TFTHelper.Core.deps.json
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/bin/Debug/netstandard2.0/TFTHelper.Core.dll
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/bin/Debug/netstandard2.0/ref/TFTHelper.Core.dll
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/bin/Debug/netstandard2.0/TFTHelper.Core.pdb
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/obj/Debug/netstandard2.0/TFTHelper.Core.csproj.CoreCompileInputs.cache
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/obj/Debug/netstandard2.0/TFTHelper.Core.AssemblyInfoInputs.cache
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/obj/Debug/netstandard2.0/TFTHelper.Core.AssemblyInfo.cs
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/obj/Debug/netstandard2.0/TFTHelper.Core.dll
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/obj/Debug/netstandard2.0/ref/TFTHelper.Core.dll
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/obj/Debug/netstandard2.0/TFTHelper.Core.pdb
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper.Core/obj/Debug/netstandard2.0/TFTHelper.Core.csprojAssemblyReference.cache

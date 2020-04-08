@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/TFTHelper2.csproj": {}
+  },
+  "projects": {
+    "/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/TFTHelper2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/TFTHelper2.csproj",
+        "projectName": "TFTHelper2",
+        "projectPath": "/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/TFTHelper2.csproj",
+        "packagesPath": "/Users/jessepecar/.nuget/packages/",
+        "outputPath": "/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jessepecar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ObjectModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.848062, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

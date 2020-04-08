@@ -1,0 +1,106 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991477" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Champions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ChampionConfigs\.DS_Store" />
+    <None Remove="ChampionConfigs\champion\Aatrox.json" />
+    <None Remove="ChampionConfigs\champion\Ahri.json" />
+    <None Remove="ChampionConfigs\champion\Akali.json" />
+    <None Remove="ChampionConfigs\champion\Alistar.json" />
+    <None Remove="ChampionConfigs\champion\Amumu.json" />
+    <None Remove="ChampionConfigs\champion\Anivia.json" />
+    <None Remove="ChampionConfigs\champion\Annie.json" />
+    <None Remove="ChampionConfigs\champion\Aphelios.json" />
+    <None Remove="ChampionConfigs\champion\Ashe.json" />
+    <None Remove="ChampionConfigs\champion\Azir.json" />
+    <None Remove="ChampionConfigs\champion\Bard.json" />
+    <None Remove="ChampionConfigs\champion\Blitzcrank.json" />
+    <None Remove="ChampionConfigs\champion\Braum.json" />
+    <None Remove="ChampionConfigs\champion\Caitlyn.json" />
+    <None Remove="ChampionConfigs\champion\Camille.json" />
+    <None Remove="ChampionConfigs\champion\Cassiopeia.json" />
+    <None Remove="ChampionConfigs\champion\Chogath.json" />
+    <None Remove="ChampionConfigs\champion\Corki.json" />
+    <None Remove="ChampionConfigs\champion\Diana.json" />
+    <None Remove="ChampionConfigs\champion\Draven.json" />
+    <None Remove="ChampionConfigs\champion\DrMundo.json" />
+    <None Remove="ChampionConfigs\champion\Elise.json" />
+    <None Remove="ChampionConfigs\champion\Evelynn.json" />
+    <None Remove="ChampionConfigs\champion\Ezreal.json" />
+    <None Remove="ChampionConfigs\champion\Fiddlesticks.json" />
+    <None Remove="ChampionConfigs\champion\Fiora.json" />
+    <None Remove="ChampionConfigs\champion\Fizz.json" />
+    <None Remove="ChampionConfigs\champion\Galio.json" />
+    <None Remove="ChampionConfigs\champion\Gangplank.json" />
+    <None Remove="ChampionConfigs\champion\Garen.json" />
+    <None Remove="ChampionConfigs\champion\Gnar.json" />
+    <None Remove="ChampionConfigs\champion\Gragas.json" />
+    <None Remove="ChampionConfigs\champion\Graves.json" />
+    <None Remove="ChampionConfigs\champion\Heimerdinger.json" />
+    <None Remove="ChampionConfigs\champion\Illaoi.json" />
+    <None Remove="ChampionConfigs\champion\Irelia.json" />
+    <None Remove="ChampionConfigs\champion\Ivern.json" />
+    <None Remove="ChampionConfigs\champion\Jax.json" />
+    <None Remove="ChampionConfigs\champion\Jayce.json" />
+    <None Remove="ChampionConfigs\champion\Kaisa.json" />
+    <None Remove="ChampionConfigs\champion\Karthus.json" />
+    <None Remove="ChampionConfigs\champion\Katarina.json" />
+    <None Remove="ChampionConfigs\champion\Kennen.json" />
+    <None Remove="ChampionConfigs\champion\Kled.json" />
+    <None Remove="ChampionConfigs\champion\LeeSin.json" />
+    <None Remove="ChampionConfigs\champion\Lissandra.json" />
+    <None Remove="ChampionConfigs\champion\Lulu.json" />
+    <None Remove="ChampionConfigs\champion\Malzahar.json" />
+    <None Remove="ChampionConfigs\champion\Maokai.json" />
+    <None Remove="ChampionConfigs\champion\MissFortune.json" />
+    <None Remove="ChampionConfigs\champion\Mordekaiser.json" />
+    <None Remove="ChampionConfigs\champion\Morgana.json" />
+    <None Remove="ChampionConfigs\champion\Nidalee.json" />
+    <None Remove="ChampionConfigs\champion\Nunu.json" />
+    <None Remove="ChampionConfigs\champion\Olaf.json" />
+    <None Remove="ChampionConfigs\champion\Orianna.json" />
+    <None Remove="ChampionConfigs\champion\Pantheon.json" />
+    <None Remove="ChampionConfigs\champion\Qiyana.json" />
+    <None Remove="ChampionConfigs\champion\Quinn.json" />
+    <None Remove="ChampionConfigs\champion\Rakan.json" />
+    <None Remove="ChampionConfigs\champion\Rammus.json" />
+    <None Remove="ChampionConfigs\champion\Renekton.json" />
+    <None Remove="ChampionConfigs\champion\Taric.json" />
+    <None Remove="ChampionConfigs\champion\Xayah.json" />
+    <None Remove="ChampionConfigs\map.json" />
+    <None Remove="ChampionConfigs\profileicon.json" />
+    <None Remove="ChampionConfigs\sticker.json" />
+    <None Remove="ChampionsConfig\champions.json" />
+    <None Remove="ChampionsConfig\hexes.json" />
+    <None Remove="ChampionsConfig\items.json" />
+    <None Remove="ChampionsConfig\traits.json" />
+    <None Remove="champions %28copy%29.json" />
+    <None Remove="filterSelection %28copy%29.json" />
+    <None Remove="champions.json" />
+    <None Remove="filterSelection.json" />
+    <None Remove="sortSelection.json" />
+    <None Remove="traits.json" />
+    <None Remove="items.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ChampionJsonHolders\ChampionJson.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="champions.json" />
+    <EmbeddedResource Include="sortSelection.json" />
+    <EmbeddedResource Include="traits.json" />
+    <EmbeddedResource Include="items.json" />
+  </ItemGroup>
+</Project>

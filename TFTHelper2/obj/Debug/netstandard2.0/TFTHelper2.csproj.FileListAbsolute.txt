@@ -1,0 +1,11 @@
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/bin/Debug/netstandard2.0/TFTHelper2.deps.json
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/bin/Debug/netstandard2.0/TFTHelper2.dll
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/bin/Debug/netstandard2.0/TFTHelper2.pdb
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.0/Views/LandingPage.xaml.g.cs
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.0/TFTHelper2.AssemblyInfoInputs.cache
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.0/TFTHelper2.AssemblyInfo.cs
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.0/TFTHelper2.dll
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.0/TFTHelper2.pdb

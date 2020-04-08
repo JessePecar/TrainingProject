@@ -1,0 +1,469 @@
+﻿{
+  "Champion": [
+    {
+      "Name": "Aatrox",
+      "AbilityName": "The Darkin Blade",
+      "AbilityDetails": "Aatrox Cleaves the area in front of him, dealing damage to enemies inside it.",
+      "AbilityDamage": "Damage: 300 / 600 / 900",
+      "CharacterClassDetails": "Blademaster",
+      "CharacterOriginDetails": "Demon",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 3
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Ahri",
+      "AbilityName": "Spirit Orb",
+      "AbilityDetails": "Ahri fires an orb in a line that returns to her, damaging enemies it passes throguh.",
+      "AbilityDamage": "Damage: 100 / 200 / 300",
+      "CharacterClassDetails": "Sorcerer",
+      "CharacterOriginDetails": "Wild",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 2
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Akali",
+      "AbilityName": "Five Point Strike",
+      "AbilityDetails": "Akali throws shurkines in front of her, dealing damage",
+      "AbilityDamage": "Damage: 200 / 350 / 500",
+      "CharacterClassDetails": "Assassin",
+      "CharacterOriginDetails": "Ninja",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 4
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Anivia",
+      "AbilityName": "Glacial Storm",
+      "AbilityDetails": "Anivia channels a large hailstorm for 6s, damaging enemies inside of it.",
+      "AbilityDamage": "Damage: 800 / 950 / 1200 Attack Speed Slow: 50 / 70 / 90",
+      "CharacterClassDetails": "Elementalist",
+      "CharacterOriginDetails": "Glacial",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 5
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Ashe",
+      "AbilityName": "Enchanted Crystal Arrow",
+      "AbilityDetails": "Ashe fires an arrow that travels across the map, damages and stuns(stun duration is 1s / 1.5s / 2s per hex traveled).",
+      "AbilityDamage": "Damage: 700 / 950 / 1200",
+      "CharacterClassDetails": "Ranger",
+      "CharacterOriginDetails": "Glacial",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 3
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Aurelion Sol",
+      "AbilityName": "Voice of Light",
+      "AbilityDetails": "Aurelion channels for 0.35s and breathes a large blast of fire in a line, dealing damage to enemies",
+      "AbilityDamage": "Damage: 250 / 500 / 750",
+      "CharacterClassDetails": "Sorcerer",
+      "CharacterOriginDetails": "Dragon",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 5
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Blitzcrank",
+      "AbilityName": "Rocket Grab",
+      "AbilityDetails": "Blitzcrank pulls the furthest enemy to him",
+      "AbilityDamage": "Damage: 250 / 550 / 850",
+      "CharacterClassDetails": "Brawler",
+      "CharacterOriginDetails": "Robot",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 2
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Brand",
+      "AbilityName": "Pyroclasm",
+      "AbilityDetails": "Brand launches a fireball that bounces 4 / 4/ 6 time, damaging enemies hit.",
+      "AbilityDamage": "Damage: 250 / 450 / 650",
+      "CharacterClassDetails": "Elementalist",
+      "CharacterOriginDetails": "Demon",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 4
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Cho'Gath",
+      "AbilityName": "Rupture",
+      "AbilityDetails": "Cho'Gath ruptures a 3 hex area area, stunning for 1.5s / 1.75s / 2s and damaging enemies inside of it.",
+      "AbilityDamage": "Damage: 175 / 350 / 525",
+      "CharacterClassDetails": "Brawler",
+      "CharacterOriginDetails": "Void",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 4
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Evelynn",
+      "AbilityName": "Last Caress",
+      "AbilityDetails": "Evelynn deals damae to the 3 closest enemies and teleports away. Damage is increased by 3x / 4x / 5x against enemies below 50% health.",
+      "AbilityDamage": "Damage: 200 / 300 / 400",
+      "CharacterClassDetails": "Assassin",
+      "CharacterOriginDetails": "Demon",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 3
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Gangplank",
+      "AbilityName": "Powder Kegs",
+      "AbilityDetails": "Gangplank periodically creates barrels. On cast, Gangplank detonates the barrels, damaging nearby enemies.",
+      "AbilityDamage": "Damage: 150 / 250 / 350",
+      "CharacterClassDetails": "Gunslinger",
+      "CharacterOriginDetails": "Pirate",
+      "CharacterTypeDetails": "Blademaster",
+      "CharacterCost": 3
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Garen",
+      "AbilityName": "Judgement",
+      "AbilityDetails": "Garen rapidly spins his sword around his body for 4s, becoming immune to magic damage and dealing damage to nearby enemies",
+      "AbilityDamage": "Total Damage: 360 / 585 / 810",
+      "CharacterClassDetails": "Knight",
+      "CharacterOriginDetails": "Noble",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 1
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Gnar",
+      "AbilityName": "GNAR!",
+      "AbilityDetails": "Gnar transforms gaining 250 / 450 / 650 health and jumps behind the furthest enemy, damage and shoving enemies backwards.",
+      "AbilityDamage": "Knockback Damage: 200 / 300 / 400",
+      "CharacterClassDetails": "Shapeshifter",
+      "CharacterOriginDetails": "Wild",
+      "CharacterTypeDetails": "Yordle",
+      "CharacterCost": 4
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Graves",
+      "AbilityName": "Buckshot",
+      "AbilityDetails": "Graves' attacks deal splash damage to nearby enemies.",
+      "AbilityDamage": "Damage Multiplier 0.1 / 0.2 / 0.3",
+      "CharacterClassDetails": "Gunslinger",
+      "CharacterOriginDetails": "Pirate",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 1
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Jayce",
+      "AbilityName": "Mercury Cannon",
+      "AbilityDetails": "Jayce knocks away an enemy in melee range, dealing damage and stunning them for 2.5s / 4.25s / 6s. He then transforms his hammer into a cannon, increasing his attack range by 3 hexes and gaining max attack speed for a 3 / 5 / 7 attacks",
+      "AbilityDamage": "Damage: 200 / 350 / 500",
+      "CharacterClassDetails": "Shapeshifter",
+      "CharacterOriginDetails": "Hextech",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 2
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Jinx",
+      "AbilityName": "Get Excited!",
+      "AbilityDetails": "Jinx gets excited as she participates in kills. On her first takedown, she gains 60% / 80% / 100% Attack Speed. On her second, she swaps to her rocket launcher causing her attacks to deal bonus area damage.",
+      "AbilityDamage": "Damage: 100 / 200 / 300",
+      "CharacterClassDetails": "Gunslinger",
+      "CharacterOriginDetails": "Hextech",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 4
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Kai'sa",
+      "AbilityName": "Killer Instinct",
+      "AbilityDetails": "Kai'sa dashes to the farthest enemy unit, gaining a damage shield and 50% / 75% / 100% Attack Speed for 3 seconds.",
+      "AbilityDamage": "Shield Amount: 400 / 700 / 1000", //Gotta make sure this says shield
+      "CharacterClassDetails": "Assassin",
+      "CharacterOriginDetails": "Void",
+      "CharacterTypeDetails": "Ranger",
+      "CharacterCost": 5
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Karthus",
+      "AbilityName": "Requiem",
+      "AbilityDetails": "Karthus deals damage to 5 / 7 / 9 random enemies after a long channel.",
+      "AbilityDamage": "Damage: 350 / 600 / 850",
+      "CharacterClassDetails": "Sorcerer",
+      "CharacterOriginDetails": "Phantom",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 5
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Kassadin",
+      "AbilityName": "Nether Blade",
+      "AbilityDetails": "Kassadin's attacks steal mana from enemies, converting it into a shield for 4s.",
+      "AbilityDamage": "Mana Steal: 25 / 50 / 75",
+      "CharacterClassDetails": "Sorcerer",
+      "CharacterOriginDetails": "Void",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 1
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Katarina",
+      "AbilityName": "Death Lotus",
+      "AbilityDetails": "Katarina channels and fires daggers at 4 / 6 / 8 nearby enemies, dealing damage and reducing healing for 3s.",
+      "AbilityDamage": "Damage per tick: 45 / 70 / 95",
+      "CharacterClassDetails": "Assassin",
+      "CharacterOriginDetails": "Imperial",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 3
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Kayle",
+      "AbilityName": "Divine Judgement",
+      "AbilityDetails": "Kayle shields 1 / 2 / 3 allies, making them immune to damage.",
+      "AbilityDamage": "Duration: 2s / 2.5s / 3s", //This needs to say duration
+      "CharacterClassDetails": "Knight",
+      "CharacterOriginDetails": "Noble",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 5
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Kennen",
+      "AbilityName": "Slicing Maelstrom",
+      "AbilityDetails": "Kennen summons a storm around him, dealing damage and stunning enemies inside of it for 1.5s.",
+      "AbilityDamage": "Damage: 225 / 450 / 675",
+      "CharacterClassDetails": "Elementalist",
+      "CharacterOriginDetails": "Yordle",
+      "CharacterTypeDetails": "Ninja",
+      "CharacterCost": 3
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Kha'Zix",
+      "AbilityName": "Taste their Fear",
+      "AbilityDetails": "Kha'Zix slashes the closest enemy, dealing bonus damage to enemies that are alone.",
+      "AbilityDamage": "Damage: 150 / 250 / 350 Isolation Damage: 400 / 600 / 800",
+      "CharacterClassDetails": "Assassin",
+      "CharacterOriginDetails": "Void",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 1
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Kindred",
+      "AbilityName": "Lamb's Respite",
+      "AbilityDetails": "Kindred creates a zone around herself for 3s / 4s / 5s that prevents allies from dying.",
+      "AbilityDamage": "Minimum HP 300 / 600 / 900",
+      "CharacterClassDetails": "Ranger",
+      "CharacterOriginDetails": "Phantom",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 4
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Leona",
+      "AbilityName": "Solar Flare",
+      "AbilityDetails": "Leona calls down a solar ray, stunning enemies in the center for 5s / 7s / 9s and dealing damage to enemies inside it.",
+      "AbilityDamage": "175 / 250 / 325",
+      "CharacterClassDetails": "Guardian",
+      "CharacterOriginDetails": "Noble",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 4
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Lissandra",
+      "AbilityName": "Frozen Tomb",
+      "AbilityDetails": "Lissandra encases the target in ice, stunning them for 1.5s and dealing damage to nearby enemies. Below half HP lissandra instead encasesherself, becoming untargetable for 2s.",
+      "AbilityDamage": "Damage: 175 / 325 / 475",
+      "CharacterClassDetails": "Elementalist",
+      "CharacterOriginDetails": "Glacial",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 1
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Lucian",
+      "AbilityName": "Relentless Pursuit",
+      "AbilityDetails": "Lucian dashes away to safety and attacks an enemy twice, once with Attack Damage and once with Spell Damage.",
+      "AbilityDamage": "Second Shot Damage: 125 / 250 / 375",
+      "CharacterClassDetails": "Gunslinger",
+      "CharacterOriginDetails": "Noble",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 2
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Pantheon",
+      "AbilityName": "Grand Starfall",
+      "AbilityDetails": "Pantheon leaps in the air, becomes untargetable, and crashes down towards the farthest enemy stunning them for 2s. As he lands, Pantheon deals magic damage to all enemies in his path based off their Maximum Health. They then burn for an additional percentage of their Maximum Health as True Damage over a few seconds and applies Grievous Wounds.",
+      "AbilityDamage": "10% / 20% / 30% Max HP",
+      "CharacterClassDetails": "Sorcerer",
+      "CharacterOriginDetails": "Wild",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 5
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Poppy",
+      "AbilityName": "Keeper's Verdict",
+      "AbilityDetails": "Poppy brings down her hamer, knocking away 1 / 2 / 3 nearby enemies for 2s.",
+      "AbilityDamage": "Damage: 300 / 500 / 700",
+      "CharacterClassDetails": "Knight",
+      "CharacterOriginDetails": "Yordle",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 3
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Sejuani",
+      "AbilityName": "Glacial Prison",
+      "AbilityDetails": "Sejuani creates a large glacial storm, stunning enemies within it after a short delay for 2s / 3.5s / 5s.",
+      "AbilityDamage": "Damage: 100 / 175 / 250",
+      "CharacterClassDetails": "Knight",
+      "CharacterOriginDetails": "Glacial",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 4
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    },
+    {
+      "Name": "Ahri",
+      "AbilityName": "",
+      "AbilityDetails": "",
+      "AbilityDamage": "100 / 200 / 300",
+      "CharacterClassDetails": "Sorcerer",
+      "CharacterOriginDetails": "Wild",
+      "CharacterTypeDetails": "null",
+      "CharacterCost": 2
+      //Image
+      //Image
+      //Image
+      //Image
+      //Image
+    }
+  ]
+}

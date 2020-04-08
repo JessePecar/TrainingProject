@@ -1,0 +1,6 @@
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.1/TFTHelper2.csprojAssemblyReference.cache
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.1/App.xaml.g.cs
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.1/MainPage.xaml.g.cs
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.1/Views/LandingPage.xaml.g.cs
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.1/TFTHelper2.AssemblyInfoInputs.cache
+/Users/jessepecar/Projects/TFTHelper2/TFTHelper2/obj/Debug/netstandard2.1/TFTHelper2.AssemblyInfo.cs
